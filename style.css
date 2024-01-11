@@ -1,0 +1,635 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html body {
+    height: 100%;
+    width: 100%;
+}
+
+#container {
+    height: 100%;
+    width: 100%;
+    position: relative;
+
+}
+
+#page-1 {
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://templatemo.com/templates/templatemo_469_impulse/images/home-bg.jpg);
+    background-attachment: fixed;
+    /* background-position: center; */
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#page-1 h1 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3rem;
+    text-align: center;
+}
+
+#page-1 button {
+    background: #eb5424;
+    border-radius: 4px;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 20px 40px;
+    margin-top: 60px;
+}
+
+#page-1 button:hover {
+    background-color: white;
+    color: #eb5424;
+}
+
+nav {
+    height: 80px;
+    width: 100%;
+    padding-left: 10px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    size: 3rem;
+}
+
+#logo h1 {
+    color: #777;
+    font-size: 3rem;
+}
+
+#nav-link {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#nav-link a {
+    text-decoration: none;
+    color: #777;
+    padding-left: 20px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    /* transition: 2s ease-in-out; */
+}
+
+#nav-link a:hover {
+    color: #eb5424;
+}
+
+#page-2 {
+    height: 100vh;
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* text-align: center; */
+}
+
+#page-2 h2 {
+    color: #777;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#page-2 h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 50px 0;
+    font-size: 3rem;
+}
+
+#page-2 p {
+    color: #777;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 80%;
+    text-align: center;
+}
+
+#page-3 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+#p3-right {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#p3-right h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5rem;
+    margin: 30px 0;
+}
+
+#p3-right p {
+    color: #777;
+    width: 300px;
+    text-align: center;
+}
+
+#p3-left {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.p3-gray {
+    height: 50%;
+    width: 50%;
+    background-color: #777;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.p3-gray h1 {
+    color: white;
+    margin: 30px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+}
+
+.p3-orange h1 {
+    color: white;
+    margin: 30px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+}
+
+.p3-orange {
+    height: 50%;
+    width: 50%;
+    background-color: #eb5424;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.p3-icon {
+    height: 100px;
+    width: 100px;
+    /* background-color: #eb5424; */
+    color: white;
+    display: flex;
+    justify-content: centeR;
+    align-items: center;
+    font-size: 3rem;
+}
+
+.p3-icon:hover {
+    background-color: white;
+    color: #777;
+    border-radius: 50%;
+    transition: 0.5s ease-in;
+}
+
+#page-4 {
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://templatemo.com/templates/templatemo_469_impulse/images/team-bg.jpg);
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#page-4 h1 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.line {
+    width: 200px;
+    height: 1.5px;
+    background-color: #ffffff;
+    margin: 30px 0;
+}
+
+#page-4 p {
+    width: 30%;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 500;
+
+}
+
+#p4-card-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 400px;
+    margin-top: 10px;
+
+}
+
+.card {
+    height: 100%;
+    width: 320px;
+    /* background-color: aqua; */
+    border: 20px;
+}
+
+.card-image {
+    height: 77%;
+    width: 100%;
+    /* background-color: #eb5424; */
+}
+
+#card-1 {
+    background-image: url(hammad.jfif);
+    background-size: cover;
+}
+
+#card-2 {
+    background-image: url(mybashir.jfif);
+    background-size: cover;
+}
+
+#card-3 {
+    background-image: url(hamzaweb.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.card-title {
+    height: 23%;
+    width: 100%;
+    background-color: #eb5424;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.name {
+    color: black;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+}
+
+.name-title {
+    color: white;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3rem;
+}
+
+#page-5 {
+    height: 120vh;
+    width: 100%;
+    background-color: #60606024;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#page-5 h1 {
+    color: black;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.line-2 {
+    width: 200px;
+    height: 1.5px;
+    background-color: rgba(0, 0, 0, 0.74);
+    margin: 30px 0;
+}
+
+#page-5 p {
+    width: 30%;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.747);
+    font-weight: 500;
+}
+
+#portfolio-container {
+    height: 60%;
+    width: 90%;
+    /* background-color: #eb5424; */
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#carouselExample{
+    position: absolute;
+    z-index: 888;
+    margin-top: 240px;
+    display: none; 
+    border: 0.5px solid gray;
+} 
+.portfolio-images {
+    height: 200px;
+    width: 250px;
+    margin: 10px;
+    background-color: #ffffff;
+    opacity: 0.8;
+}
+#cross{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 80%;
+    font-size: 2rem;
+    display: none;
+}
+.portfolio-images:hover {
+    opacity: 1;
+}
+
+#image-1 {
+    background-image: url(https://templatemo.com/templates/templatemo_469_impulse/images/portfolio-img1.jpg);
+    background-size: cover;
+}
+
+#image-2 {
+    background-image: url(https://templatemo.com/templates/templatemo_469_impulse/images/portfolio-img2.jpg);
+    background-size: cover;
+}
+
+#image-3 {
+    background-image: url(https://templatemo.com/templates/templatemo_469_impulse/images/portfolio-img3.jpg);
+    background-size: cover;
+}
+
+#image-4 {
+    background-image: url(https://templatemo.com/templates/templatemo_469_impulse/images/portfolio-img4.jpg);
+    background-size: cover;
+}
+
+#image-5 {
+    background-image: url(https://templatemo.com/templates/templatemo_469_impulse/images/portfolio-img5.jpg);
+    background-size: cover;
+}
+
+#image-6 {
+    background-image: url(https://templatemo.com/templates/templatemo_469_impulse/images/portfolio-img6.jpg);
+    background-size: cover;
+}
+
+#image-7 {
+    background-image: url(https://templatemo.com/templates/templatemo_469_impulse/images/portfolio-img7.jpg);
+    background-size: cover;
+}
+
+#image-8 {
+    background-image: url(https://templatemo.com/templates/templatemo_469_impulse/images/portfolio-img8.jpg);
+    background-size: cover;
+}
+
+#page-6 {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#page-6 h1 {
+    margin-top: 50px;
+    color: black;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#page-6 p {
+    width: 30%;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.747);
+    font-weight: 500;
+}
+
+#p6-card-container {
+    height: 600px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-evenly;
+    margin: 80px 0;
+}
+
+.p6-card {
+    height: 100%;
+    width: 350px;
+    /* background-color: #eb5424;   */
+}
+
+.p6-card-heading {
+    height: 20%;
+    width: 100%;
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.8rem;
+}
+
+.p6-card-content {
+    height: 80%;
+    width: 100%;
+    background-color: #eb5424;
+}
+
+.price {
+    height: 35%;
+    width: 100%;
+    border-bottom: 2px solid #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#page-6 .price h1 {
+    color: #ffffff;
+}
+
+#page-6 .price p {
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+}
+
+.item {
+    height: 65%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#page-6 .item p {
+    color: #ffffff;
+    margin: 20px 0;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.item-btn {
+    background: #ffffff;
+    border-radius: 4px;
+    border: none;
+    color: black;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 20px 40px;
+    margin-top: 15px;
+}
+
+.item-btn:hover {
+    background: black;
+    color: #ffffff;
+    transition: 0.8s ease-in;
+}
+
+#page-7 {
+    height: 100vh;
+    width: 100%;
+    background: url(https://templatemo.com/templates/templatemo_469_impulse/images/contact-bg.jpg )fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#page-7 h1 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#page-7 p {
+    width: 30%;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+#contact {
+    height: 60%;
+    width: 100%;
+    /* background-color: #eb5424; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact input {
+    width: 600px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+#message {
+    height: 100px;
+}
+
+#inp-btn {
+    height: 60px;
+    background-color: #eb5424;
+    text-align: center;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+#footer {
+    height: 65vh;
+    width: 100%;
+    background-color: #202020;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#footer-heading{
+    color: #f6f6f6;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#footer-icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+}
+.icon{
+    height: 90px;
+    width: 90px;
+    margin: 0 20px;
+    font-size: 2.5rem;
+    color: #eb5424;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.icon:hover{
+    background-color: #131212;
+    transition: 0.3s ease-in;
+}
+#copyright{
+    color: #f6f6f6;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
